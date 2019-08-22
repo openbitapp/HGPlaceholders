@@ -30,7 +30,9 @@ s.social_media_url = 'https://twitter.com/GhazouaniHamza'
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'HGPlaceholders/Classes/**/*'
-s.resource = 'HGPlaceholders/Assets/*.*'
+s.source_files = 'HGPlaceholders/Classes/**/*.{h,m,swift}'
+s.resources = ['HGPlaceholders/Assets/*.*', 'HGPlaceholders/Classes/**/*.{xib}']
+
+s.swift_versions = ['4.2']#, '5.0']
 
 end
